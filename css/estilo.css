@@ -1,0 +1,174 @@
+/* Estilização Corpo */
+body {
+    /* margin: 0;
+    padding: 0; */
+    background-color: #202020;
+    color: white;
+    /* width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif; */
+}
+
+/* .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(270deg, #ff6a00, #ee0979, #00c6ff, #0072ff);
+    background-size: 800% 800%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Conteúdo */
+/* .content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+} */
+
+/* h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.5em;
+}  */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização tamanho fontes */
+h1 {
+    text-align: center;
+}
+
+h2, h3 {
+    color: white;
+    text-align: center;
+    /* text-align: center; */
+}
+
+p {
+    text-align: justify;
+}
+
+
+/* Menu */
+.nav-items {
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-items>li>a {
+    padding: 20px; 
+    color: #202020;
+    text-decoration:none;
+ }
+
+ .nome{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    /* margin: 10px; */
+    align-items: center;
+    background:#90D0FA;
+    width: 100%;
+    height: 100px;
+}
+
+
+
+/* Sobre Mim */
+.sobre-mim {
+    display: flex;
+    margin: 20px auto;
+    padding: 20px;
+    width: 1000px;
+    height: 300px; 
+} 
+
+.texto-sobremim {
+    padding: 10px 10px;
+    color: white;
+}
+
+.imagem-perfil {
+    background-color: #ddd;
+    border-radius: 50%;
+    height: 200px;
+    object-fit: cover; 
+    width: 200px;
+}
+
+/* Meus Projetos */
+.projeto {
+    display: flex;
+    margin: 20px auto;
+    padding: 20px 10px;
+    width: 900px;
+    height: 300px; 
+} 
+.img-projeto {
+    width: 200px;
+}
+.img-projeto, .texto-localize {
+    display: inline-block;
+    justify-content: center;
+
+}
+
+/* Github e Linkedin */
+.perfis {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-github, .img-linkedin {
+    background-color: #ddd;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.link-github, .link-linkedin {
+    display: inline-block;
+    padding: 20px;
+}
+
+/* Endereço Fatec */
+
+.container3 {
+    width: 70%;
+}
+.mapa {
+    width: 300px;
+    height: 250px;
+    border: 5px solid white;
+}
+
+#mapa, #fatec {
+    display: center;
+    align-items: center;
+    
+}
+
